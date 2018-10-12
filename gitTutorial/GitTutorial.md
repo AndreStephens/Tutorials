@@ -50,5 +50,8 @@
 |`git rm --cached file.txt` | remove file.txt from staging |
 |`git branch mybranch` | create new working branch |
 |`git checkout mybranch` | switch to working branch |
+|`git diff` | shows changes to be staged |
+|`git log` | lists branch commit history |
+|`git reset --hard [commit]` | discards all changes after specified commit |
 
 

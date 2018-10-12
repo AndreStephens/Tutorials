@@ -23,6 +23,7 @@
 6. Check status of directory: `git status`
 7. Add file to staging: `git add intro.md`
 8. Let's commit the new file with a message: `git commit -m "initial commit"`
+9. Do the same for intro.html
 
 ## Ignoring file types
 1. Let's ignore log.txt: `echo log.txt >> .gitignore` 
@@ -30,9 +31,13 @@
 2. 1. To ignore a subdirectory: `echo \subdir >> .gitignore`  
 
 ##Switching branches
-1. Create a new branch (from master) called testing: `git branch testing`
+1. Create a new branch (from master branch) called testing: `git branch testing`
 2. Switch to testing branch: `git checkout testing`
-3. Let's add a new line to some files: `
+3. Let's add a new line to some files: `echo by *Andre S.* > intro.md` `echo by ^<i^>Andre S.^</H1^> > intro.html`
+4. Let's also create a new file: `echo > data.csv`
+5. Let's add and commit all changes
+6. Let's return to the master branch (notice that the changes made in testing disappear when we switch!): `git checkout master`
+7. To merge testing into master, simply do: `git merge testing`
 
 ##Common commands
 

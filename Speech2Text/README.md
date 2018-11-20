@@ -45,5 +45,5 @@ You can choose to write a second file to your current directory with the confide
 
     python transcribe.py gs://myBucketName/EgyptianArabic.wav -l ar-EG
 
-<br>
-__For more information on the script, check out this [Speech2Text notebook](./Tutorials/Speech2Text/Speech2Text.ipynb).__
+
+**For more information on the script, check out this [Speech2Text notebook](./Tutorials/Speech2Text/Speech2Text.ipynb).**

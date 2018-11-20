@@ -11,7 +11,7 @@ transcribe.py is a Python command line script that translates audio to text usin
 
 # Usage
 
-You can copy the [./Tutorials/Speech2Text/transcribe.py](./Tutorials/Speech2Text/transcribe.py) file to a local directory and use it from there.
+You can copy the [transcribe.py](transcribe.py) file to a local directory and use it from there.
 
 *For basic use:*
 
@@ -46,4 +46,4 @@ You can choose to write a second file to your current directory with the confide
     python transcribe.py gs://myBucketName/EgyptianArabic.wav -l ar-EG
 
 <br>
-**For more information on the script, check out this [Speech2Text notebook](./Tutorials/Speech2Text/Speech2Text.ipynb).**
+__For more information on the script, check out this [Speech2Text notebook](./Tutorials/Speech2Text/Speech2Text.ipynb).__

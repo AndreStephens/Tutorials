@@ -106,6 +106,7 @@ def transcribe(gcs_uri, apikey, language='en-US', confidences=False):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description=__doc__,
+        usage='%(prog)s [-h] [gsc_uri] [apikey] [-l] [-c]',
         formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument(
         'gsc_uri', 
@@ -116,13 +117,14 @@ if __name__ == "__main__":
         type=str,
         help='File path for .json file with gcs api key')
     parser.add_argument(
-        '--language',
         '-l',
+        '--language',
+        metavar=' ',
         type=str,
         help='Language of audio recording')
     parser.add_argument(
-        '--confidences',
         '-c',
+        '--confidences',
         action='store_true',
         help='Optionally return json file with transcription confidence levels.')
     args = parser.parse_args()
